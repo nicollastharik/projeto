@@ -1,0 +1,498 @@
+
+/*class em CSS*/
+
+	.container {
+		position: center  n ;
+		
+		width: 1024px;
+		height: 740px; 
+	}
+
+	.imagem-sobreposta {
+		position: absolute;
+		
+		top: 10%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9; /* Ajuste a opacidade conforme necessário */
+	}
+
+/*class para o botão*/
+
+	.texto-sobreposto {
+		position: absolute;
+		top: 137%;
+		left: 1%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+
+	.texto-sobreposto2 {
+		position: absolute;
+		top: 137%;
+		left: 22%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+
+	.texto-sobreposto3 {
+		position: absolute;
+		top: 137%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+
+	.texto-sobreposto4 {
+		position: absolute;
+		top: 137%;
+		left: 72%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+
+		.texto-sobreposto5 {
+		position: absolute;
+		top: 137%;
+		left: 91%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-size: 20px;
+		text-align: left; 
+
+	}
+/*class para o texto principa*/
+
+		.texto-sobreposto6 {
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #00008B;
+		font-size: 20px;
+		text-align: left;
+
+
+/*outras class mais focada nos botões*/
+
+
+	}
+
+	.botao-grande{
+		/*width: 80px;*/
+		width: 100%;
+		height: 50px;
+		border-color: #4483BE;
+		background-color: white;
+	}
+
+	.botao-grande1{
+		width: 100%;
+		height: 50px;
+		border-color: #4483BE;
+		background-color: white;
+	}
+
+		.botao-grande2{
+		/*width: 108px;*/
+		width: 100%;
+		height: 50px;
+		border-color: #4483BE;
+		background-color: white;
+	}
+
+		.botao-grande3{
+		width: 100%;
+		height: 50px;
+		border-color: #4483BE;
+		background-color: white;
+	}
+	
+/*class para imagens*/
+
+		.imagem1{
+			position: absolute;
+			width: 123px ;
+			height: 123px;
+			top: 120%;
+			left: 1%;
+
+		}
+
+		.imagem2{
+			position: absolute;
+			width: 130px ;
+			height: 130px;
+			top: 119%;
+			left: 21%;
+
+		}
+
+		.imagem3{
+			position: absolute;
+			width: 130px ;
+			height: 130px;
+			top: 119%;
+			left: 47%;
+
+		}
+
+		.imagem4{
+			position: absolute;
+			width: 130px ;
+			height: 130px;
+			top: 119%;
+			left: 72%;
+
+		}
+
+		.imagem5{
+			position: absolute;
+			width: 120px ;
+			height: 130px;
+			top: 119%;
+			left: 92%;
+
+		}
+
+		.imagem6{
+			position: absolute;
+			width: 550px ;
+			height: 350px;
+			top: 23%;
+			left: 60%;
+
+		}
+
+		.imagem7{
+			position: absolute;
+			width: 370px ;
+			height: 270px;
+			top: 14%;
+			left: 60%;
+		}
+
+/*class para um bloco colorido*/
+
+		   .bloco-azul {
+		   	position: absolute;
+            background-color: #4f8ec9;
+            color: white;
+            padding: 0px;
+            width: 100%; /* Largura do bloco */
+            top: 110%;
+            left: 0%;
+            cursor: pointer;
+			          
+        }
+	
+		.editavel {
+          
+            outline: none;
+            width: 100%;
+        }
+
+   .bloco-texto {
+		   	position: absolute;
+            background-color: white;
+            color: white;
+            padding: 10px;
+            width: 100%;            /* Largura do bloco */
+            top: 15%;
+            left: 0%;
+            opacity: 1;              /*transparencia*/
+            
+        }
+
+ 
+    .logo{
+    	position: absolute;
+    	top: 2%;
+    	left: 2%;
+    	width: 220px;
+    	height: 130px;
+    }    	
+
+
+       .bloco-azul2 {
+		   	position: absolute;
+            background-color: #4f8ec9;
+            color: white;
+            padding: 0px;
+            width: 100%; /* Largura do bloco */
+            top: 80%;
+            left: 0%;
+            cursor: pointer;
+            
+        }
+
+
+       .bloco-azul3 {
+		   	position: absolute;
+            background-color: #4f8ec9;
+            color: white;
+            padding: 10px;
+            width: 630px; /* Largura do bloco */
+            top: 31%;
+            left: 3%;
+            border: solid;
+            border-radius: 22px;
+            border-width: 3px;
+            cursor: pointer;
+           
+           
+            
+        }
+
+
+			/*menu*/
+
+
+        /* Estilo para a barra lateral */
+        .sidebar {
+            height: 500px;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            right: -250px;
+            background-color: black ;
+            padding-top: 20px;
+            transition: right 0.3s;
+            opacity: 0.9;
+        }
+
+        /* Estilo para os links do menu */
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            display: block;
+        }
+
+        /* Estilo para o botão de fechar a barra lateral */
+        .close-btn {
+            position: absolute;
+            top: 4%;
+            left: 10%;
+            cursor: pointer;
+            color: white;
+            
+        }
+
+        /* Estilo para o conteúdo principal */
+        .content {
+            margin-right: 0;
+            transition: margin-right 0.3s;
+        }
+
+        /* Estilo para abrir a barra lateral */
+        .sidebar-open {
+            right: 0;
+        }
+        .open-btn {
+            position: absolute;
+            top: 5%;
+            right: 3%;
+            cursor: pointer;
+            color: black;
+        }
+
+        .buttonmenu{
+	position: absolute;
+	width: 110px;
+	height: 40px;
+	top: 28%;
+	left: 30%;
+	background-color: white;
+	opacity: 0.5;
+}
+
+		      .buttonmenu2{
+	position: absolute;
+	width: 110px;
+	height: 40px;
+	top: 19%;
+	left: 30%;
+	background-color: white;
+	opacity: 0.5;
+}
+
+		.buttonmenu3{
+	position: absolute;
+	width: 110px;
+	height: 40px;
+	top: 37%;
+	left: 30%;
+	background-color: white;
+	opacity: 0.5;
+	}
+
+
+
+	 /* Estilize o carrossel aqui */
+        #carousel-container {
+            width: 900px;
+            overflow: hidden;
+        }
+        #image-carousel {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-image {
+            width: 900px;
+            height: 600px;
+
+        }
+
+        .carrosel{
+        	position: absolute;
+        	top: 30%;
+        	left: 20%;
+        }
+
+        .button_io1 {
+  position: absolute;
+  top: 
+  left: 500%;
+  align-items: center;
+  appearance: none;
+  background-color: #EEF2FF;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #4483BE;
+  box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #4483BE;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 56px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
+  
+}
+
+
+/*borda animada*/
+
+.border-top{
+	position: absolute;
+	top: 30%;
+	left: 2%;
+	width: 30%;
+	height: 3px;
+	background: linear-gradient(to left, #171618, #fcc23f);
+	animation: animate-border-top 2s linear infinite;
+}
+
+@keyframes animate-border-top{
+	0%{
+		transform: translate(-100%);
+	}
+	100%{
+		transform: translateX(100px);
+	}
+}
+
+.border-right {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to button, #171618, #fcc23f);
+	animation: animate-border-right 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate-border-right {
+	0%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(100%);
+	}
+}
+	
+.border-botton{	
+position: absolute;
+	bottom: 30%;
+	left: 2%;
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(to left, #171618, #fcc23f);
+	animation: animate-border-botton 2s linear infinite;
+	
+}
+@keyframes animate-border-botton{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(-100%);
+	}
+}
+
+.border-left{	
+position: absolute;
+	top: 30%;
+	left: 2%;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to left, #171618, #fcc23f);
+	animation: animate-border-left 2s linear infinite;
+	animation-delay: 1s;
+	
+}
+
+@keyframes animate-border-left{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(-100%);
+	}
+}
+
+.box{
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+ .buttonmenu4{
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  top: 46%;
+  left: 30%;
+  background-color: white;
+  opacity: 0.5;
+  }

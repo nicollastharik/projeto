@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Camera</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+</head>
+<body>
+
+
+
+<svg class="ondas" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop><stop stop-color="rgba(84.838, 107.034, 127.82, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,245L48,236.8C96,229,192,212,288,212.3C384,212,480,229,576,236.8C672,245,768,245,864,220.5C960,196,1056,147,1152,138.8C1248,131,1344,163,1440,220.5C1536,278,1632,359,1728,359.3C1824,359,1920,278,2016,204.2C2112,131,2208,65,2304,49C2400,33,2496,65,2592,114.3C2688,163,2784,229,2880,277.7C2976,327,3072,359,3168,383.8C3264,408,3360,425,3456,432.8C3552,441,3648,441,3744,408.3C3840,376,3936,310,4032,310.3C4128,310,4224,376,4320,383.8C4416,392,4512,343,4608,326.7C4704,310,4800,327,4896,285.8C4992,245,5088,147,5184,98C5280,49,5376,49,5472,57.2C5568,65,5664,82,5760,73.5C5856,65,5952,33,6048,65.3C6144,98,6240,196,6336,204.2C6432,212,6528,131,6624,130.7C6720,131,6816,212,6864,253.2L6912,294L6912,490L6864,490C6816,490,6720,490,6624,490C6528,490,6432,490,6336,490C6240,490,6144,490,6048,490C5952,490,5856,490,5760,490C5664,490,5568,490,5472,490C5376,490,5280,490,5184,490C5088,490,4992,490,4896,490C4800,490,4704,490,4608,490C4512,490,4416,490,4320,490C4224,490,4128,490,4032,490C3936,490,3840,490,3744,490C3648,490,3552,490,3456,490C3360,490,3264,490,3168,490C3072,490,2976,490,2880,490C2784,490,2688,490,2592,490C2496,490,2400,490,2304,490C2208,490,2112,490,2016,490C1920,490,1824,490,1728,490C1632,490,1536,490,1440,490C1344,490,1248,490,1152,490C1056,490,960,490,864,490C768,490,672,490,576,490C480,490,384,490,288,490C192,490,96,490,48,490L0,490Z"></path></svg>
+
+
+<div class="container"> 
+        <img src="imagens\fundo1.png" alt="Imagem de Fundo"class="imagem-sobreposta"> 
+
+    </div>
+
+
+
+
+
+
+<a href="pag1.html">
+<img src="imagens\logo2.png" class="logo1">
+</a>
+
+</div>
+
+
+<div class="video2 ">
+ <video controls>
+        <source src="videos\video2.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+</div>
+
+
+<!-- Botão para abrir a barra lateral -->
+<div class="open-btn" onclick="openSidebar()">
+<font size="7" face="Arial" color="black">☰</font>
+</div>
+
+<!-- Barra lateral -->
+<div class="sidebar" id="sidebar">
+    <div class="close-btn" onclick="closeSidebar()">✖</div>
+    
+
+    
+    <a href="pag1.html">
+        <button class="buttonmenu2">
+            Página inicial
+        </button>
+    </a>
+
+    <a href="pag7.html">
+        <button class="buttonmenu">
+            Mercado
+        </button>
+    </a>
+
+    <a href="pag8.html">
+        <button class="buttonmenu3">
+            Fornecedores
+            
+        </button>
+    </a>
+
+    <a href="pag9.html">
+        <button class="buttonmenu4">
+            Videos
+            
+        </button>
+    </a>
+</div>
+
+<!-- Conteúdo principal -->
+
+
+<script>
+    function openSidebar() {
+        document.getElementById("sidebar").classList.add("sidebar-open");
+    }
+
+    function closeSidebar() {
+        document.getElementById("sidebar").classList.remove("sidebar-open");
+    }
+</script>
+
+
+<div class="bloco">
+        <!-- Adicione o atributo 'contenteditable' para tornar o bloco editável -->
+        <div class="editavel" contenteditable="true">
+            <font size="5" face="Arial" color="black">
+                
+A automação de câmeras de segurança é uma ferramenta poderosa na proteção de residências, empresas e espaços públicos, permitindo monitoramento remoto, detecção de movimento e gravação em tempo real. Isso proporciona tranquilidade aos usuários, pois eles podem monitorar ambientes em tempo real em qualquer lugar do mundo. 
+<br>
+
+Além disso, a automação simplifica o gerenciamento de registros de vídeo e pode ser integrada a outros dispositivos de segurança, como sensores de alarme, criando um sistema completo de proteção.
+
+            </font>
+        </div>
+    </div>
+
+
+
+<!-- carrosel -->
+
+<div class="carrosel">
+    <div id="carousel-container">
+        <div id="image-carousel">
+            <img class="carousel-image" src="imagens/camera2.jpg" alt="Imagem 1">
+            <img class="carousel-image" src="imagens/camera3.jpg" alt="Imagem 2">
+            <img class="carousel-image" src="imagens/camera5.jpg" alt="Imagem 3">
+        </div>
+    </div>
+
+
+
+
+    <script>
+        // Código JavaScript para controlar o carrossel
+        const carousel = document.getElementById("image-carousel");
+        let currentIndex = 0;
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % carousel.children.length;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            const offset = -currentIndex * 900; // Largura de cada imagem
+            carousel.style.transform = `translateX(${offset}px)`;
+        }
+
+        // Função para rodar automaticamente
+        function autoRotate() {
+            setInterval(nextSlide, 3000); // Troca a cada 3 segundos (ajuste conforme necessário)
+        }
+
+        // Adicione event listeners para os botões de próximo e anterior
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("next-button").addEventListener("click", nextSlide);
+            document.getElementById("prev-button").addEventListener("click", prevSlide);
+            autoRotate(); // Inicie a rotação automática quando a página for carregada
+        });
+    </script>
+
+    <!-- Adicione botões para navegar -->
+   
+        <button id="prev-button" >Anterior</button>
+        <button id="next-button">Próximo</button>
+    
+
+</div>
+
+<a href="pag9.html">
+<button class="button_io1" role="button">Ver mais videos</button>
+</a>
+
+ <div class="bloco-inv2">
+        Camera 
+    </div>
+
+
+
+
+<div>
+    <img src="imagens/intelbras.jpg" class="imagem-sobreposta4">
+</div>
+
+<div>
+    <a href="https://www.kabum.com.br/produto/212535/modulo-expansor-intelbras-de-entrada-e-saida-de-alarme-para-dvr-multi-box?gclid=EAIaIQobChMIoP_hnrvkgQMVsczCBB0yzgzYEAQYAyABEgJa3_D_BwE">
+        <button class="button_pr4">
+           Kabum
+        </button>
+    </a>
+</div>
+
+
+<div>
+    <a href="https://produto.mercadolivre.com.br/MLB-1924091640-modulo-expansor-entrada-e-saida-p-dvr-multi-box-intelbras-_JM?matt_tool=86477614&matt_word=&matt_source=google&matt_campaign_id=14302215516&matt_ad_group_id=130580034870&matt_match_type=&matt_network=g&matt_device=c&matt_creative=542969737599&matt_keyword=&matt_ad_position=&matt_ad_type=pla_with_promotion&matt_merchant_id=448722426&matt_product_id=MLB1924091640&matt_product_partition_id=1818029910898&matt_target_id=pla-1818029910898&gclid=EAIaIQobChMInaTg8bzkgQMVRM3CBB2bYAIvEAQYASABEgKCZPD_BwE">
+        <button class="button_pr5">
+            Mercado Livre
+        </button>
+    </a>
+</div>
+
+
+<div>
+    <a href="https://www.amazon.com.br/M%C3%B3dulo-Expansor-Entrada-Alarme-Intelbras/dp/B07FTTRDDH/ref=asc_df_B07FTTRDDH/?tag=googleshopp00-20&linkCode=df0&hvadid=379787181806&hvpos=&hvnetw=g&hvrand=17323081443441366221&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074292&hvtargid=pla-1457312129925&psc=1">
+        <button class="button_pr6">
+            Amazon
+        </button>
+    </a>
+</div>
+
+<div class="bloco4">
+    Mais barato
+</div>
+
+<div class="bloco-inv8">
+    Produto
+</div>
+
+
+<a href="pag7.html">
+<button class="button_pr17" role="button">Mais produtos</button>
+</a>
+<!--<div class="posição">
+    <div class="rating">
+     <input value="5" name="rate" id="star5" type="radio">
+    <label title="text" for="star5"></label>
+    <input value="4" name="rate" id="star4" type="radio">
+    <label title="text" for="star4"></label>
+    <input value="3" name="rate" id="star3" type="radio" checked="">
+    <label title="text" for="star3"></label>
+    <input value="2" name="rate" id="star2" type="radio">
+    <label title="text" for="star2"></label>
+     <input value="1" name="rate" id="star1" type="radio">
+    <label title="text" for="star1"></label>
+    </div>
+</div>-->
+</body>
+
+
+
+
+
+
+
+</html>

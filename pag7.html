@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	
+	<title>Mercado</title>
+</head>
+<body >
+
+
+
+<div class="container"> 
+        <img src="imagens\fundo1.png" alt="Imagem de Fundo"class="imagem-sobreposta"> 
+
+    </div>
+
+
+
+
+<div>
+	<a href="pag1.html">
+<img src="imagens\logo2.png" class="logo1">
+</a>
+</div>
+
+
+<!-- Botão para abrir a barra lateral -->
+<div class="open-btn" onclick="openSidebar()">
+<font size="7" face="Arial" color="black">☰</font>
+</div>
+
+<!-- Barra lateral -->
+<div class="sidebar" id="sidebar">
+    <div class="close-btn" onclick="closeSidebar()">✖</div>
+    
+
+    
+    <a href="pag1.html">
+        <button class="buttonmenu2">
+            Página inicial
+        </button>
+    </a>
+
+    <a href="pag7.html">
+        <button class="buttonmenu">
+            Mercado
+        </button>
+    </a>
+
+    <a href="pag8.html">
+        <button class="buttonmenu3">
+            Fornecedores
+            
+        </button>
+    </a>
+
+    <a href="pag9.html">
+        <button class="buttonmenu4">
+            Videos
+            
+        </button>
+    </a>
+</div>
+
+<!-- Conteúdo principal -->
+
+
+<script>
+    function openSidebar() {
+        document.getElementById("sidebar").classList.add("sidebar-open");
+    }
+
+    function closeSidebar() {
+        document.getElementById("sidebar").classList.remove("sidebar-open");
+    }
+</script>
+
+
+
+
+
+</body>
+</html>
